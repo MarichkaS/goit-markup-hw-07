@@ -63,7 +63,7 @@ body {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-}
+} 
 
 /* -------LOGO HEADER------- */
 
@@ -937,9 +937,9 @@ textarea::placeholder {
         color: var(--dark-color);
     }
     
-    .mobile-nav{
+    /* .mobile-nav{
         margin-bottom: 204px;
-    }
+    } */
     
     /* modal menu contacts-------- */
     .mobile-menu-tel{
@@ -995,7 +995,12 @@ textarea::placeholder {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         outline: none;
     }
-    
+    .wrapper-content-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
 
     /* --------------------------------- */
     .social-networks .icon-link:hover{
@@ -1018,27 +1023,31 @@ textarea::placeholder {
         width: 426px;
         margin-right:auto;  
         margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .container-team{
         width: 294px;
         margin-right: auto;
         margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
-    .modal-menu{
+    /* .modal-menu{
         width: 428px;
         margin-right: auto;
         margin-left: auto;
-    }
+    } */
 
     .hero{
-        width: 428px;
+        /* width: 428px; */
         margin-right: auto;
         margin-left: auto;
         }
 
         .team-section{
-            width: 426px;
+            /* width: 426px; */
             margin-right:auto;  
             margin-left: auto;
         }
@@ -1050,6 +1059,8 @@ textarea::placeholder {
         width: 768px;
         margin-right: auto;  
         margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .mobile-menu, .icon-burger-menu{
@@ -1131,7 +1142,7 @@ textarea::placeholder {
 
     /* ---------hero---------- */
     .hero{
-        width: 768px;
+        /* width: 768px; */
     }
 
 
@@ -1139,7 +1150,7 @@ textarea::placeholder {
     .feature-list{
         flex-wrap: wrap;
         flex-direction: row;
-        align-items: center;
+        /* align-items: center; */
     }
 
     .feature-list .item:not(:nth-child(2n)){
@@ -1156,7 +1167,7 @@ textarea::placeholder {
     /* -------OUR TEAM------------ */
 
     .team-section {
-        width: 768px;
+        /* width: 768px; */
         padding-right: 15px;
         padding-left: 15px;
     }
@@ -1218,6 +1229,8 @@ textarea::placeholder {
         width: 1158px;
         margin-right: auto;
         margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     /* --------NAVIGATION--------- */
@@ -1234,7 +1247,7 @@ textarea::placeholder {
 
     .hero{
 
-        width: 1200px;
+        /* max-width: 1440px; */
         height: 600px;
         margin-right: auto;
         margin-left: auto;
@@ -1263,7 +1276,7 @@ textarea::placeholder {
         /* column-gap: 24px; */
         flex-wrap: nowrap;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
         margin-right: 0;
     }
 
@@ -1322,9 +1335,9 @@ textarea::placeholder {
 
     /* -----------OUR TEAM---------- */
 
-    .team-section {
+    /* .team-section {
         width: 1200px;
-    }
+    } */
 
     /* ------------CUSTOMERS-------- */
     .costomers-logo{
@@ -1338,7 +1351,8 @@ textarea::placeholder {
     
         /* ------------FOOTER-------- */
         .footer{
-            width: 1200px;
+            width: 100%;
+            /* width: 1200px; */
             padding-top: 100px;
             padding-bottom: 100px;
         }
